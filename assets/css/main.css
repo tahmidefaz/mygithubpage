@@ -85,10 +85,10 @@
 	body {
 		height: 100%;
 		background-color: #ffffff;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35)), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35)), url("../../images/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
 		background-size: 100px 100px, cover,				cover;
 		background-position: top left,		center center,		bottom center;
@@ -106,10 +106,10 @@
 			opacity: 0;
 			z-index: 1;
 			background-color: #ffffff;
-			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35));
-			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0, 228, 255, 0.35));
+			background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35));
+			background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35));
+			background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35));
+			background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(150,  166, 255, 0.5) 5%, rgba(0,  0, 0, 0.35));
 			background-repeat: repeat,			no-repeat;
 			background-size: 100px 100px, cover;
 			background-position: top left,		center center;
@@ -169,7 +169,7 @@
 		}
 
 		a:hover {
-			color: #749EFF;
+			color: #4D4D4D;
 		}
 
 	strong, b {
@@ -303,7 +303,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #749EFF;
+			border-color: #4D4D4D;
 		}
 
 	.select-wrapper {
@@ -404,13 +404,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #749EFF;
+			color: #4D4D4D;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #749EFF;
+			border-color: #4D4D4D;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -546,7 +546,7 @@
 					}
 
 					ul.icons li a:hover:before {
-						text-shadow: 1.25px 0px 0px #749EFF, -1.25px 0px 0px #749EFF, 0px 1.25px 0px #749EFF, 0px -1.25px 0px #749EFF;
+						text-shadow: 1.25px 0px 0px #4D4D4D, -1.25px 0px 0px #4D4D4D, 0px 1.25px 0px #4D4D4D, 0px -1.25px 0px #4D4D4D;
 					}
 
 					ul.icons li a:before {
@@ -562,7 +562,7 @@
 					}
 
 					ul.icons li a:hover {
-						border-color: #749EFF;
+						border-color: #4D4D4D;
 					}
 
 			@media screen and (max-width: 480px) {
@@ -636,8 +636,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #749EFF;
-			color: #749EFF !important;
+			border-color: #4D4D4D;
+			color: #4D4D4D !important;
 		}
 
 		input[type="submit"].icon,
