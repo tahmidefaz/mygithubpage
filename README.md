@@ -1,18 +1,15 @@
 # My Personal Website
-This is the source code of my personal website. 
+
+This is the source code of my personal website @tahmidefaz.com. I use this website to share my personal projects, photography and info.
 
 ## Technologies used: 
-HTML, CSS, JavaScript, Bootstrap, Google Analytics
 
-###### Original Theme Created by
+HTML, CSS, JavaScript, Bootstrap, Jekyll, Google Analytics
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+##### Original Theme Created by
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+*[David Miller] https://github.com/davidtmiller
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
+##### Theme Copyright and License
 
 Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
