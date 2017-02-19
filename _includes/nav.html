@@ -1,35 +1,31 @@
-<nav class="navbar navbar-default">
-		<div class="container-fluid">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Tahmid Efaz</a>
+        </div>
 
-			<!-- Logo -->
-      <div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar" aria-expanded="false">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="{{site.baseurl}}index.html" class="navbar-brand">
-					<img alt="T.E." src="tahmid-logo.png">
-				</a>
-			</div>
-
-			<!-- Menu Items -->
-			<div class="collapse navbar-collapse" id="mainNavBar">
-				<ul class="nav navbar-nav">
-					<li class ="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.baseurl}}about.html">ABOUT</a></li>
-          <li class ="{% if page.url == '/projects.html' %} active {% endif %}"><a href="{{site.baseurl}}projects.html">Projects</a></li>
-				</ul>
-				<!-- right-align -->
-				<ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Me<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://www.linkedin.com/in/tahmid-efaz-997572b9">LinkedIn</a></li>
-  							<li role="separator" class="divider"></li>
-  							<li class="dropdown-header">tahmidefaz@gmail.com</li>
-              </ul>
-          </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#photography">Photography</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
